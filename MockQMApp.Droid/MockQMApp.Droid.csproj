@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{61691BD1-21FA-4D70-9D7B-63746A884E68}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MockQMApp.Droid</RootNamespace>
+    <AssemblyName>MockQMApp.Droid</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidApplication>true</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
+    <AndroidSupportedAbis>armeabi,armeabi-v7a,x86</AndroidSupportedAbis>
+    <AndroidStoreUncompressedFileExtensions />
+    <MandroidI18n />
+    <JavaMaximumHeapSize />
+    <JavaOptions />
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <NuGetPackageImportStamp>de0c7cb7</NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
+    <AndroidLinkMode>None</AndroidLinkMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FormsViewGroup, Version=1.3.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xamarin.Forms.1.3.3.6323\lib\MonoAndroid10\FormsViewGroup.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Mono.Android" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xamarin.Android.Support.v4.21.0.3.0\lib\MonoAndroid10\Xamarin.Android.Support.v4.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Core, Version=1.3.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xamarin.Forms.1.3.3.6323\lib\MonoAndroid10\Xamarin.Forms.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform.Android, Version=1.3.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xamarin.Forms.1.3.3.6323\lib\MonoAndroid10\Xamarin.Forms.Platform.Android.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Xaml, Version=1.3.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xamarin.Forms.1.3.3.6323\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\LoginXamlPage.xaml.cs">
+      <DependentUpon>LoginXamlPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomDisplay.cs" />
+    <Compile Include="CustomViewCellRenderer.cs" />
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Properties\AndroidManifest.xml" />
+    <AndroidResource Include="Resources\drawable\fortislogo.png" />
+    <AndroidResource Include="Resources\drawable\password.png" />
+    <AndroidResource Include="Resources\drawable\qmlogo.png" />
+    <AndroidResource Include="Resources\drawable\meradoctorlogo.png" />
+    <AndroidResource Include="Resources\drawable\UserName.png" />
+    <AndroidResource Include="Resources\drawable\diabetes.png" />
+    <AndroidResource Include="Resources\drawable\heart.png" />
+    <AndroidResource Include="Resources\drawable\menu.png" />
+    <AndroidResource Include="Resources\values\styles_qm.xml" />
+    <AndroidResource Include="Resources\drawable\ab_background_textured_qm.xml" />
+    <AndroidResource Include="Resources\drawable\btn_cab_done_qm.xml" />
+    <AndroidResource Include="Resources\drawable\progress_horizontal_qm.xml" />
+    <AndroidResource Include="Resources\drawable\selectable_background_qm.xml" />
+    <AndroidResource Include="Resources\drawable\spinner_background_ab_qm.xml" />
+    <AndroidResource Include="Resources\drawable\tab_indicator_ab_qm.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ab_bottom_solid_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ab_solid_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ab_stacked_solid_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ab_texture_tile_qm.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ab_transparent_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\btn_cab_done_default_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\btn_cab_done_focused_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\btn_cab_done_pressed_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\cab_background_bottom_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\cab_background_top_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\list_focused_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\list_pressed_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\menu_dropdown_panel_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\progress_bg_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\progress_primary_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\progress_secondary_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\spinner_ab_default_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\spinner_ab_disabled_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\spinner_ab_focused_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\spinner_ab_pressed_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tab_selected_focused_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tab_selected_pressed_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tab_selected_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tab_unselected_focused_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tab_unselected_pressed_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tab_unselected_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ab_bottom_solid_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ab_solid_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ab_stacked_solid_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ab_texture_tile_qm.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ab_transparent_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\btn_cab_done_default_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\btn_cab_done_focused_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\btn_cab_done_pressed_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\cab_background_bottom_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\cab_background_top_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\list_focused_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\list_pressed_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\menu_dropdown_panel_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\progress_bg_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\progress_primary_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\progress_secondary_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\spinner_ab_default_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\spinner_ab_disabled_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\spinner_ab_focused_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\spinner_ab_pressed_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\tab_selected_focused_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\tab_selected_pressed_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\tab_selected_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\tab_unselected_focused_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\tab_unselected_pressed_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\tab_unselected_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ab_bottom_solid_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ab_solid_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ab_stacked_solid_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ab_texture_tile_qm.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ab_transparent_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\btn_cab_done_default_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\btn_cab_done_focused_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\btn_cab_done_pressed_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\cab_background_bottom_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\cab_background_top_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\list_focused_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\list_pressed_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\menu_dropdown_panel_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\progress_bg_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\progress_primary_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\progress_secondary_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\spinner_ab_default_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\spinner_ab_disabled_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\spinner_ab_focused_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\spinner_ab_pressed_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tab_selected_focused_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tab_selected_pressed_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tab_selected_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tab_unselected_focused_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tab_unselected_pressed_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tab_unselected_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ab_bottom_solid_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ab_solid_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ab_stacked_solid_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ab_texture_tile_qm.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ab_transparent_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\btn_cab_done_default_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\btn_cab_done_focused_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\btn_cab_done_pressed_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\cab_background_bottom_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\cab_background_top_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\list_focused_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\list_pressed_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\menu_dropdown_panel_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\progress_bg_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\progress_primary_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\progress_secondary_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\spinner_ab_default_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\spinner_ab_disabled_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\spinner_ab_focused_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\spinner_ab_pressed_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\tab_selected_focused_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\tab_selected_pressed_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\tab_selected_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\tab_unselected_focused_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\tab_unselected_pressed_qm.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\tab_unselected_qm.9.png" />
+    <AndroidResource Include="Resources\drawable\ViewCellBackground.xml" />
+    <AndroidResource Include="Resources\drawable\CustomSelector.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MockQMApp\MockQMApp.csproj">
+      <Name>MockQMApp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\LoginXamlPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <Import Project="..\..\packages\Xamarin.Forms.1.3.3.6323\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.1.3.3.6323\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\packages\Xamarin.Forms.1.3.3.6323\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.Forms.1.3.3.6323\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+     Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

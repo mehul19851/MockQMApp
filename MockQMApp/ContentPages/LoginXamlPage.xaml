@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MockQMApp.ContentPages.LoginXamlPage" BackgroundColor="White">
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <Style x:Key="CustomStyle" TargetType="Label" BaseResourceKey="SubtitleStyle">
+        <Setter Property="Label.TextColor" Value="Color.Pink"/>
+      </Style>
+      <Style x:Key="ButtonStyle" TargetType="Button">
+        <Setter Property="BackgroundColor" Value="#385b63"/>
+        <Setter Property="HeightRequest" Value="42"/>
+      </Style>
+      <Style x:Key="EntryStyle" TargetType="Entry">
+        <Setter Property="BackgroundColor" Value="#9eccce"/>
+        <Setter Property="HeightRequest" Value="42"/>
+        
+      </Style>
+      <Style TargetType="BoxView">
+        <Setter Property="Color" Value="Blue"/>
+      </Style>
+    </ResourceDictionary>      
+
+  </ContentPage.Resources>
+
+  <StackLayout VerticalOptions="Center" HorizontalOptions="CenterAndExpand" Spacing="10">
+    <AbsoluteLayout>
+      
+    </AbsoluteLayout>
+    <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="*"></RowDefinition>
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition></ColumnDefinition>
+        <ColumnDefinition></ColumnDefinition>
+      </Grid.ColumnDefinitions>
+      <Image HorizontalOptions="Start" Grid.Row="0" Grid.Column="0" Source="fortislogo.png" WidthRequest="50" HeightRequest="20" />
+      <Image Grid.Row="0" Grid.Column="1" Source="qmlogo.png" WidthRequest="75" HeightRequest="15" />
+    </Grid>
+
+    <Entry Text="Username:" WidthRequest="195" x:Name="Username" Style="{StaticResource EntryStyle}"></Entry>
+    <Entry Text="Password:" WidthRequest="195" x:Name="Password" Style="{StaticResource EntryStyle}"></Entry>
+    <Button Text="SIGN IN" x:Name="SigninButton" Style="{StaticResource ButtonStyle}"></Button>
+    <AbsoluteLayout VerticalOptions="End">
+      <Label Text="Copyright 2015 VitalHealth Software. All Rights Reserved." VerticalOptions="End" />
+
+    </AbsoluteLayout>
+
+  </StackLayout>
+  
+  <!-- uses implicit style that applies to all BoxViews, 
+			 the one in the Page above overrides the App-level one -->
+  
+</ContentPage>

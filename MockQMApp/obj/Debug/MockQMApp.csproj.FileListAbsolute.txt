@@ -1,0 +1,10 @@
+C:\Users\mbhadricha\Documents\Visual Studio 2013\Projects\XamarinProjects\MockQMApp\MockQMApp\MockQMApp\bin\Debug\MockQMApp.dll
+C:\Users\mbhadricha\Documents\Visual Studio 2013\Projects\XamarinProjects\MockQMApp\MockQMApp\MockQMApp\bin\Debug\MockQMApp.pdb
+C:\Users\mbhadricha\Documents\Visual Studio 2013\Projects\XamarinProjects\MockQMApp\MockQMApp\MockQMApp\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\mbhadricha\Documents\Visual Studio 2013\Projects\XamarinProjects\MockQMApp\MockQMApp\MockQMApp\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\mbhadricha\Documents\Visual Studio 2013\Projects\XamarinProjects\MockQMApp\MockQMApp\MockQMApp\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\mbhadricha\Documents\Visual Studio 2013\Projects\XamarinProjects\MockQMApp\MockQMApp\MockQMApp\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\mbhadricha\Documents\Visual Studio 2013\Projects\XamarinProjects\MockQMApp\MockQMApp\MockQMApp\obj\Debug\LoginXamlPage.xaml.g.cs
+C:\Users\mbhadricha\Documents\Visual Studio 2013\Projects\XamarinProjects\MockQMApp\MockQMApp\MockQMApp\obj\Debug\ListViewImageXAMLPage.xaml.g.cs
+C:\Users\mbhadricha\Documents\Visual Studio 2013\Projects\XamarinProjects\MockQMApp\MockQMApp\MockQMApp\obj\Debug\MockQMApp.dll
+C:\Users\mbhadricha\Documents\Visual Studio 2013\Projects\XamarinProjects\MockQMApp\MockQMApp\MockQMApp\obj\Debug\MockQMApp.pdb
