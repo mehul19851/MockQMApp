@@ -8,3 +8,4 @@ C:\Users\mbhadricha\Documents\Visual Studio 2013\Projects\XamarinProjects\MockQM
 C:\Users\mbhadricha\Documents\Visual Studio 2013\Projects\XamarinProjects\MockQMApp\MockQMApp\MockQMApp\obj\Debug\ListViewImageXAMLPage.xaml.g.cs
 C:\Users\mbhadricha\Documents\Visual Studio 2013\Projects\XamarinProjects\MockQMApp\MockQMApp\MockQMApp\obj\Debug\MockQMApp.dll
 C:\Users\mbhadricha\Documents\Visual Studio 2013\Projects\XamarinProjects\MockQMApp\MockQMApp\MockQMApp\obj\Debug\MockQMApp.pdb
+C:\Users\mbhadricha\Documents\Visual Studio 2013\Projects\XamarinProjects\MockQMApp\MockQMApp\MockQMApp\obj\Debug\MockQMApp.csprojResolveAssemblyReference.cache

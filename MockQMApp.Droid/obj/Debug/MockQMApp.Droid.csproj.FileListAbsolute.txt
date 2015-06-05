@@ -144,3 +144,9 @@ C:\Users\mbhadricha\Documents\Visual Studio 2013\Projects\XamarinProjects\MockQM
 C:\Users\mbhadricha\Documents\Visual Studio 2013\Projects\XamarinProjects\MockQMApp\MockQMApp\MockQMApp.Droid\obj\Debug\res\drawable\viewcellbackground.xml
 C:\Users\mbhadricha\Documents\Visual Studio 2013\Projects\XamarinProjects\MockQMApp\MockQMApp\MockQMApp.Droid\obj\Debug\R.cs.flag
 C:\Users\mbhadricha\Documents\Visual Studio 2013\Projects\XamarinProjects\MockQMApp\MockQMApp\MockQMApp.Droid\obj\Debug\uploadflags.txt
+C:\Users\mbhadricha\Documents\Visual Studio 2013\Projects\XamarinProjects\MockQMApp\MockQMApp\MockQMApp.Droid\obj\Debug\res\drawable\customselector.xml
+C:\Users\mbhadricha\Documents\Visual Studio 2013\Projects\XamarinProjects\MockQMApp\MockQMApp\MockQMApp.Droid\obj\Debug\res\values\colors.xml
+C:\Users\mbhadricha\Documents\Visual Studio 2013\Projects\XamarinProjects\MockQMApp\MockQMApp\MockQMApp.Droid\obj\Debug\res\drawable\checkicon.png
+C:\Users\mbhadricha\Documents\Visual Studio 2013\Projects\XamarinProjects\MockQMApp\MockQMApp\MockQMApp.Droid\obj\Debug\res\drawable\uncheckicon.png
+C:\Users\mbhadricha\Documents\Visual Studio 2013\Projects\XamarinProjects\MockQMApp\MockQMApp\MockQMApp.Droid\obj\Debug\res\drawable\radiochecked.png
+C:\Users\mbhadricha\Documents\Visual Studio 2013\Projects\XamarinProjects\MockQMApp\MockQMApp\MockQMApp.Droid\obj\Debug\res\drawable\radiounchecked.png

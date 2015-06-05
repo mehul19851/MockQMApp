@@ -220,6 +220,11 @@
     <AndroidResource Include="Resources\drawable\CustomSelector.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\values\Colors.xml" />
+    <AndroidResource Include="Resources\drawable\CheckIcon.png" />
+    <AndroidResource Include="Resources\drawable\UnCheckIcon.png" />
+    <AndroidResource Include="Resources\drawable\RadioChecked.png" />
+    <AndroidResource Include="Resources\drawable\RadioUnchecked.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MockQMApp\MockQMApp.csproj">

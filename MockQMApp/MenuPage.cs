@@ -98,6 +98,13 @@ namespace MockQMApp
 
             this.Add(new MenuItem()
             {
+                Title = "MultiSelect Listview",
+                IconSource = "icon.png",
+                TargetType = typeof(MultiSelectListView)
+            });
+
+            this.Add(new MenuItem()
+            {
                 Title = "Logout",
                 IconSource = "password.png",
                 TargetType = typeof(LoginPage)

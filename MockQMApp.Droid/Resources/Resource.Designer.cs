@@ -41,6 +41,22 @@ namespace MockQMApp.Droid
 			}
 		}
 		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f030000
+			public const int cellback = 2130903040;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
 		public partial class Drawable
 		{
 			
@@ -81,94 +97,109 @@ namespace MockQMApp.Droid
 			public const int cab_background_top_qm = 2130837515;
 			
 			// aapt resource value: 0x7f02000c
-			public const int diabetes = 2130837516;
+			public const int CheckIcon = 2130837516;
 			
 			// aapt resource value: 0x7f02000d
-			public const int fortislogo = 2130837517;
+			public const int CustomSelector = 2130837517;
 			
 			// aapt resource value: 0x7f02000e
-			public const int heart = 2130837518;
+			public const int diabetes = 2130837518;
 			
 			// aapt resource value: 0x7f02000f
-			public const int icon = 2130837519;
+			public const int fortislogo = 2130837519;
 			
 			// aapt resource value: 0x7f020010
-			public const int list_focused_qm = 2130837520;
+			public const int heart = 2130837520;
 			
 			// aapt resource value: 0x7f020011
-			public const int list_pressed_qm = 2130837521;
+			public const int icon = 2130837521;
 			
 			// aapt resource value: 0x7f020012
-			public const int menu = 2130837522;
+			public const int list_focused_qm = 2130837522;
 			
 			// aapt resource value: 0x7f020013
-			public const int menu_dropdown_panel_qm = 2130837523;
+			public const int list_pressed_qm = 2130837523;
 			
 			// aapt resource value: 0x7f020014
-			public const int meradoctorlogo = 2130837524;
+			public const int menu = 2130837524;
 			
 			// aapt resource value: 0x7f020015
-			public const int password = 2130837525;
+			public const int menu_dropdown_panel_qm = 2130837525;
 			
 			// aapt resource value: 0x7f020016
-			public const int progress_bg_qm = 2130837526;
+			public const int meradoctorlogo = 2130837526;
 			
 			// aapt resource value: 0x7f020017
-			public const int progress_horizontal_qm = 2130837527;
+			public const int password = 2130837527;
 			
 			// aapt resource value: 0x7f020018
-			public const int progress_primary_qm = 2130837528;
+			public const int progress_bg_qm = 2130837528;
 			
 			// aapt resource value: 0x7f020019
-			public const int progress_secondary_qm = 2130837529;
+			public const int progress_horizontal_qm = 2130837529;
 			
 			// aapt resource value: 0x7f02001a
-			public const int qmlogo = 2130837530;
+			public const int progress_primary_qm = 2130837530;
 			
 			// aapt resource value: 0x7f02001b
-			public const int selectable_background_qm = 2130837531;
+			public const int progress_secondary_qm = 2130837531;
 			
 			// aapt resource value: 0x7f02001c
-			public const int spinner_ab_default_qm = 2130837532;
+			public const int qmlogo = 2130837532;
 			
 			// aapt resource value: 0x7f02001d
-			public const int spinner_ab_disabled_qm = 2130837533;
+			public const int RadioChecked = 2130837533;
 			
 			// aapt resource value: 0x7f02001e
-			public const int spinner_ab_focused_qm = 2130837534;
+			public const int RadioUnchecked = 2130837534;
 			
 			// aapt resource value: 0x7f02001f
-			public const int spinner_ab_pressed_qm = 2130837535;
+			public const int selectable_background_qm = 2130837535;
 			
 			// aapt resource value: 0x7f020020
-			public const int spinner_background_ab_qm = 2130837536;
+			public const int spinner_ab_default_qm = 2130837536;
 			
 			// aapt resource value: 0x7f020021
-			public const int tab_indicator_ab_qm = 2130837537;
+			public const int spinner_ab_disabled_qm = 2130837537;
 			
 			// aapt resource value: 0x7f020022
-			public const int tab_selected_focused_qm = 2130837538;
+			public const int spinner_ab_focused_qm = 2130837538;
 			
 			// aapt resource value: 0x7f020023
-			public const int tab_selected_pressed_qm = 2130837539;
+			public const int spinner_ab_pressed_qm = 2130837539;
 			
 			// aapt resource value: 0x7f020024
-			public const int tab_selected_qm = 2130837540;
+			public const int spinner_background_ab_qm = 2130837540;
 			
 			// aapt resource value: 0x7f020025
-			public const int tab_unselected_focused_qm = 2130837541;
+			public const int tab_indicator_ab_qm = 2130837541;
 			
 			// aapt resource value: 0x7f020026
-			public const int tab_unselected_pressed_qm = 2130837542;
+			public const int tab_selected_focused_qm = 2130837542;
 			
 			// aapt resource value: 0x7f020027
-			public const int tab_unselected_qm = 2130837543;
+			public const int tab_selected_pressed_qm = 2130837543;
 			
 			// aapt resource value: 0x7f020028
-			public const int UserName = 2130837544;
+			public const int tab_selected_qm = 2130837544;
 			
 			// aapt resource value: 0x7f020029
-			public const int ViewCellBackground = 2130837545;
+			public const int tab_unselected_focused_qm = 2130837545;
+			
+			// aapt resource value: 0x7f02002a
+			public const int tab_unselected_pressed_qm = 2130837546;
+			
+			// aapt resource value: 0x7f02002b
+			public const int tab_unselected_qm = 2130837547;
+			
+			// aapt resource value: 0x7f02002c
+			public const int UnCheckIcon = 2130837548;
+			
+			// aapt resource value: 0x7f02002d
+			public const int UserName = 2130837549;
+			
+			// aapt resource value: 0x7f02002e
+			public const int ViewCellBackground = 2130837550;
 			
 			static Drawable()
 			{
@@ -183,35 +214,35 @@ namespace MockQMApp.Droid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f030001
-			public const int ActionBar_Solid_Qm = 2130903041;
+			// aapt resource value: 0x7f040001
+			public const int ActionBar_Solid_Qm = 2130968577;
 			
-			// aapt resource value: 0x7f030002
-			public const int ActionBar_Transparent_Qm = 2130903042;
+			// aapt resource value: 0x7f040002
+			public const int ActionBar_Transparent_Qm = 2130968578;
 			
-			// aapt resource value: 0x7f030005
-			public const int ActionBarTabStyle_Qm = 2130903045;
+			// aapt resource value: 0x7f040005
+			public const int ActionBarTabStyle_Qm = 2130968581;
 			
-			// aapt resource value: 0x7f030008
-			public const int ActionButton_CloseMode_Qm = 2130903048;
+			// aapt resource value: 0x7f040008
+			public const int ActionButton_CloseMode_Qm = 2130968584;
 			
-			// aapt resource value: 0x7f030004
-			public const int DropDownListView_Qm = 2130903044;
+			// aapt resource value: 0x7f040004
+			public const int DropDownListView_Qm = 2130968580;
 			
-			// aapt resource value: 0x7f030006
-			public const int DropDownNav_Qm = 2130903046;
+			// aapt resource value: 0x7f040006
+			public const int DropDownNav_Qm = 2130968582;
 			
-			// aapt resource value: 0x7f030003
-			public const int PopupMenu_Qm = 2130903043;
+			// aapt resource value: 0x7f040003
+			public const int PopupMenu_Qm = 2130968579;
 			
-			// aapt resource value: 0x7f030007
-			public const int ProgressBar_Qm = 2130903047;
+			// aapt resource value: 0x7f040007
+			public const int ProgressBar_Qm = 2130968583;
 			
-			// aapt resource value: 0x7f030000
-			public const int Theme_Qm = 2130903040;
+			// aapt resource value: 0x7f040000
+			public const int Theme_Qm = 2130968576;
 			
-			// aapt resource value: 0x7f030009
-			public const int Theme_Qm_Widget = 2130903049;
+			// aapt resource value: 0x7f040009
+			public const int Theme_Qm_Widget = 2130968585;
 			
 			static Style()
 			{
