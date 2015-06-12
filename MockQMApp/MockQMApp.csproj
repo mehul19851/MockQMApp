@@ -50,6 +50,7 @@
     <Compile Include="ContentPages\Page1.cs" />
     <Compile Include="ContentPages\ProviderCell.cs" />
     <Compile Include="ContentPages\ProvidersCell.cs" />
+    <Compile Include="ContentPages\ProvidersListPage.cs" />
     <Compile Include="MenuPage.cs" />
     <Compile Include="MultiSelect.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

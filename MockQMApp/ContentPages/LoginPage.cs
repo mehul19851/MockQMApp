@@ -198,7 +198,7 @@ namespace MockQMApp.ContentPages
                 }
             };
 
-            SizeChanged += (sender, e) => Content = IsPortrait(this) ? portraitView() : landscapeView();
+            //SizeChanged += (sender, e) => Content = IsPortrait(this) ? portraitView() : landscapeView();
         }
 
         

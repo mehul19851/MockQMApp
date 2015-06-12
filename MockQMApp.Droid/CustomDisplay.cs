@@ -82,7 +82,7 @@ namespace MockQMApp.Droid
         public override string ToString()
         {
             return string.Format(@"[
-Screen: Height=({0} DP) / ({1} PX), 
+Screenaaaaa: Height=({0} DP) / ({1} PX), 
 Width=({2} DP) / ({3} PX), 
 Xdpi={4:0.0}, 
 Ydpi={5:0.0}, 

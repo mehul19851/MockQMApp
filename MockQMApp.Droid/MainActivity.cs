@@ -28,7 +28,7 @@ namespace MockQMApp.Droid
             LoadApplication(new App());
 
 
-            var display = DependencyService.Get<IDisplay>();
+            //var display = DependencyService.Get<IDisplay>();
 
             //if (display.Orientation == MockQMApp.Orientation.Landscape)
             //{
